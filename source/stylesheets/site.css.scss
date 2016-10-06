@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import "normalize";
+
+@import 'https://fonts.googleapis.com/css?family=Kanit:100';
+
+
+$left-padding: 60px;
+$font-color: #EEE;
+
+body {
+  font-family: 'Kanit';
+  background-image: url("../images/backplate.jpg");
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 62px;
+  color: $font-color;
+  padding-left: $left-padding;
+}
+
+.info{
+  position: absolute;
+  bottom: 40px;
+  padding-left: $left-padding;
+
+  a{
+    padding-left: 12px;
+    color: $font-color;
+    text-decoration: none;
+  }
+
+  img{
+    height: 60px;
+  }
+}
+
+
+.top-bar {
+  background: #212121;
+  width: 100%;
+  height: 60px;
+}
+
+.bottom-bar{
+  position: absolute;
+  bottom: 0;
+  background: #212121;
+  width: 100%;
+  height: 10px;
+}
